@@ -29,24 +29,32 @@
   } */
 
   .input_header {
-    width: 100vw;
-    height: 40vh;
+    background-image: url('https://media.cdn.adultswim.com/uploads/20210628/thumbnails/2_21628714375-RickMorty_Inside502.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 20rem;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+
+  .input_div{
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
   }
 
   .input_img {
-    width: 100%;
-    height: 250px;
+    width: 69%;
+    max-height: 10rem;
     object-fit: cover;
   }
 
-
-
   .input_form {
-    position: relative;
-    top: -50px; 
-    left: 80px;
     width: 290px;
-    display: flex;
     height: 25px;
   }
 
@@ -105,7 +113,7 @@
 .card_article {
     color: #ecff32;
     border-radius: 10px;
-    background-color: #1b1919;
+    background-color: #0000009e;
     padding: 8px;
     text-align: center;
     margin-top: 5px;
@@ -141,8 +149,8 @@
 @media (min-width: 450px) {
 
   .input_img {
-    width: 100%;
-    height: 450px;
+    width: 69%;
+    max-height: 18rem;
     object-fit: cover;
   }
 
@@ -170,11 +178,66 @@
 .input_form {
     height: 35px;
     top: -68px;
-    left: 525px;
+    left: 675px;
     width: 290px;
     display: flex;
 }
 
 
 } 
+
+@media (min-width: 1200px) {
+
+  .input_img {
+    width: 69%;
+    max-height: 20rem;
+    object-fit: cover;
+  }
+
+  .input_header {
+    width: 100vw;
+    height: 65vh;
+  }
+
+  .location_card {
+    background-color: #0000009e;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    justify-content: center;
+    align-items: center;
+    height: 170px;
+    width: 95vw;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    margin-right: 25px;
+    color: #ecff32;
+}
+
+.input_form {
+    height: 35px;
+    top: -68px;
+    left: 675px;
+    width: 290px;
+    display: flex;
+}
+
+
+} 
+
+@media (min-width: 900px) {
+  .location_card {
+    flex-direction: row;
+    gap: 30px;
+  }
+
+  .location_ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+  }
+
+}
   
