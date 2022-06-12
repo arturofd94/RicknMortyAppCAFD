@@ -21,6 +21,7 @@
     justify-content: center;
     align-items: center;
     color: white;
+    overflow-x: hidden;
   }
 
   /* @media  {
@@ -38,14 +39,15 @@
     object-fit: cover;
   }
 
-  .input_form{
+
+
+  .input_form {
     position: relative;
     top: -50px; 
     left: 80px;
-    width: 145px;
+    width: 290px;
     display: flex;
     height: 25px;
-    gap: 7px;
   }
 
   .input_input {
@@ -54,6 +56,7 @@
     color: #cfde3a;
     font-weight: 700;
     border-radius: 10px;
+    margin-right: 7px;
     box-shadow: 3px 5px 10px 3px #ffffff7a;
   }
 
@@ -134,4 +137,44 @@
     left: -2%;
     font-weight: 600;
 }
+
+@media (min-width: 450px) {
+
+  .input_img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+  }
+
+  .input_header {
+    width: 100vw;
+    height: 65vh;
+  }
+
+  .location_card {
+    background-color: #0000009e;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    justify-content: center;
+    align-items: center;
+    height: 170px;
+    width: 95vw;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    margin-right: 25px;
+    color: #ecff32;
+}
+
+.input_form {
+    height: 35px;
+    top: -68px;
+    left: 525px;
+    width: 290px;
+    display: flex;
+}
+
+
+} 
   

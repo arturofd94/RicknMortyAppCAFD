@@ -11,10 +11,10 @@ const InputSearch = ({setSearchLocation}) => {
   return (
     <header className='input_header'>
       <img className='input_img' src='https://media.cdn.adultswim.com/uploads/20210628/thumbnails/2_21628714375-RickMorty_Inside502.png' alt="" />
-      <form className='input_form' onSubmit={searchLocation}>
-        <input className='input_input' type="text" autoComplete='1' placeholder='Search between 1 and 126' />
-        <button className='input_btn'>Search</button>
-      </form>
+        <form className='input_form' onSubmit={searchLocation}>
+          <input className='input_input' type="text" autoComplete='1' placeholder='Search between 1 and 126' />
+          <button className='input_btn'>Search</button>
+        </form>
       </header>
   )
 }
