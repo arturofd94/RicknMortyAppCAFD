@@ -137,7 +137,7 @@
 
 .card_status {
     color: #ecff32;
-    background-color: #1b1919;
+    background-color: #0000009e;
     border-radius: 5px;
     padding: 2px;
     position: absolute;
@@ -239,5 +239,17 @@
     gap: 12px;
   }
 
+}
+
+.Dead {
+  color: rgb(255, 68, 68);
+}
+
+.Alive{
+  color: rgb(0, 101, 0);
+}
+
+.unknown{
+  color: rgb(110, 107, 107);
 }
   

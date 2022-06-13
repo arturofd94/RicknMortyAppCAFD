@@ -9,7 +9,7 @@ const CardCharacther = ({resident}) => {
     <article className='card_article'>
       <div className='card_img'>
         <img src={character?.image} alt="" />
-        <div className='card_status'><span><b>Status: </b>{character?.status} </span>
+        <div className='card_status'><span><b>{`${character?.status}     `}</b><i class={`bx bxs-circle ${character?.status}`}></i></span>
         </div>
       </div>
       <h2>{character?.name}</h2>
